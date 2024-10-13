@@ -142,6 +142,7 @@ export const darkTheme = createTheme({
     background: {
       primary: "#212121",
       secondary: "#3A506B",
+      gradientPrimary: `linear-gradient(to left, #1d3263, #442063)`,
     },
     button: {
       backgroundPrimary: "#03DAC6", //green

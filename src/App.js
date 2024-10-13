@@ -8,7 +8,7 @@ import { lightTheme, darkTheme } from "./utils/Theme";
 
 function App() {
   const [theme, setTheme] = useState(() => {
-    return "light";
+    return "dark";
     // return window.localStorage.getItem("theme") || "light";
   });
 

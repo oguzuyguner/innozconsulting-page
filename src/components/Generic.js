@@ -8,7 +8,8 @@ export const StyledGenericRoot = styled("section")(({ theme, ismobile }) => ({
     marginBottom: "1rem",
     minHeight: "100vh",
     // minHeight: ismobile ? "auto" : "100vh",
-    backgroundColor: theme.palette.background.primary,
+    // backgroundColor: theme.palette.background.primary,
+    // backgroundImage: theme.palette.background.gradientPrimary
     
 }));
 
